@@ -1,0 +1,15 @@
+Anotações sobre o Desafio
+
+O objetivo desse desafio é fazer com que se crie a familiaridade com o Git e o GitHub que é a plataforma mais utilizada para compartilhar com outros Devs e com empresas o desenvolvimento individual nos projetos desenvolvidos
+
+Para trazer o repositório criado no GitHub para meu computador, utiliza-se o comando "git clone" seguido do link html do repositório
+
+O comando "git status" mostra o status da pasta aberta, mostrando o que está diferente entre a pasta da máquina e o repositório no GitHub
+
+O comando "git add ." adiciona todos os arquivos novos com intenção de serem adicionados ao repositório, são adicionados ao controle de versão local
+
+Para adicionar efetivamente essas alterações ao repositório remoto utiliza-se o comando "git commit -m" então entre aspas duplas é feito um comentário sobre o que está sendo enviado; importante o comentário ser coerente para ser compreendido
+
+Depois de fazer o commit, usando o comando "git status" recebemos a informação que existe um commit local e se queremos enviar para o repositório é preciso utilizar o comando "git push origin main"
+
+Assim as alterações locais são enviadas para o repositório no GitHub
